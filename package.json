@@ -1,0 +1,44 @@
+{
+  "name": "imagemin-jpegtran-gfw",
+  "version": "0.1.0",
+  "description": "jpegtran imagemin plugin for gfw",
+  "license": "MIT",
+  "repository": "anhulife/imagemin-jpegtran-gfw",
+  "author": {
+    "name": "anhulife",
+    "email": "anhulife@gmail.com",
+    "url": "https://github.com/anhulife"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "compress",
+    "gulpplugin",
+    "image",
+    "imageminplugin",
+    "img",
+    "jpeg",
+    "jpegtran",
+    "jpg",
+    "minify",
+    "optimize"
+  ],
+  "dependencies": {
+    "is-jpg": "^1.0.0",
+    "jpegtran-bin-gfw": "^0.0.2",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "buffer-equal": "^0.0.1",
+    "vinyl-file": "^1.1.0",
+    "vinyl-smallest-jpeg": "^1.0.0"
+  }
+}
