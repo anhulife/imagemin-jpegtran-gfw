@@ -1,6 +1,6 @@
 {
   "name": "imagemin-jpegtran-gfw",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "jpegtran imagemin plugin for gfw",
   "license": "MIT",
   "repository": "anhulife/imagemin-jpegtran-gfw",

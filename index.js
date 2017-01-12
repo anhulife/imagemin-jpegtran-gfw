@@ -1,7 +1,6 @@
 'use strict';
 
 var isJpg = require('is-jpg');
-var jpegtran = require('jpegtran-bin-gfw');
 var spawn = require('child_process').spawn;
 var through = require('through2');
 
@@ -39,7 +38,7 @@ module.exports = function (opts) {
 			args.push('-progressive');
 		}
 
-		var cp = spawn(jpegtran, args);
+		var cp = spawn('jpegtran', args);
 
 		cp.on('error', function (err) {
 			cb(err);
